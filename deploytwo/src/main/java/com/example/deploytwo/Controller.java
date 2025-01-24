@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class Controller {
     @GetMapping("/a")
     public String msg(){
-        return "Happy Weekend Rohit";
+        return "Happy Weekend to you all";
     }
 }
